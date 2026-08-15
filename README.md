@@ -1,8 +1,13 @@
 # MLI-Knot-Cursos Showcase
 
+> **Status:** vitrine pública sanitizada no GitHub.  
+> **Projeto fonte:** `MLI-Knot-Cursos`, mantido privado/local.  
+> **Regra de publicação:** somente documentação, exemplos e imagens revisados e seguros devem entrar nesta superfície.
+
+
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/proftectiagocosta-hash/mli-knot-mind-public/main/assets/matrix-inspired-banner.gif" width="100%" alt="Cyber banner" />
+<img src="https://raw.githubusercontent.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase/main/assets/matrix-inspired-banner.gif" width="100%" alt="Cyber banner" />
 
 </div>
 
@@ -164,7 +169,4 @@ State: initial public sanitized documentation
 
 - [Tiago Costa / Tendoshk profile](https://github.com/proftectiagocosta-hash)
 - [Project Map](https://github.com/proftectiagocosta-hash/proftectiagocosta-hash/blob/main/PROJECT_MAP.md)
-- [MLI-Knot Mind Public](https://github.com/proftectiagocosta-hash/mli-knot-mind-public)
-
-
-
+- [MLI-Knot Mind Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase)
