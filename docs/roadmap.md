@@ -1,55 +1,66 @@
 # Roadmap / Roteiro público
 
-This roadmap describes safe public next steps for the **MLI-Knot-Cursos Showcase**.
+This roadmap describes safe public next steps for **MLI-Knot-Cursos Showcase** based on the current functional private/local prototype.
 
-Este roteiro descreve próximos passos públicos seguros para a vitrine **MLI-Knot-Cursos Showcase**.
+Este roteiro descreve próximos passos públicos seguros para a vitrine **MLI-Knot-Cursos Showcase** com base no protótipo funcional privado/local atual.
 
 ---
 
 ## Current status / Estado atual
 
 ```text
-Repository type: public showcase
+Repository type: public sanitized showcase
 Source project: MLI-Knot-Cursos
-Source project visibility: private
+Source state: functional private/local prototype
 Sensitive material included here: no
-Code included here: no
-State: initial public sanitized documentation
+Private source code included here: no
+Production backend: no
+Real authentication: no
+Real payment: no
+Official certificate issuance: no
 ```
 
 ---
 
-## Done / Feito
+## Already represented publicly / Já representado publicamente
 
-- [x] Create public showcase repository.
-- [x] Add shared MLI-Knot visual banner to the main README.
-- [x] Define public/private boundary.
-- [x] Document the main course flow.
-- [x] Document student progress concept.
-- [x] Document certificate structure concept.
+- [x] Public/private boundary.
+- [x] Main educational flow.
+- [x] Course enrollment concept.
+- [x] Student progress model.
+- [x] Sequential lesson progression.
+- [x] Continue-studying behavior.
+- [x] Certificate completion gate.
+- [x] Certificate prototype boundaries.
+- [x] Canonical MLI-Knot visual banner.
+- [x] Semantic refresh aligned with the current functional prototype.
 
-- [x] Criar repositório público de vitrine.
-- [x] Adicionar o banner visual compartilhado do MLI-Knot ao README principal.
-- [x] Definir limite público/privado.
-- [x] Documentar o fluxo principal de cursos.
-- [x] Documentar o conceito de progresso do aluno.
-- [x] Documentar o conceito de estrutura de certificado.
+- [x] Limite público/privado.
+- [x] Fluxo educacional principal.
+- [x] Conceito de inscrição em curso.
+- [x] Modelo de progresso.
+- [x] Progressão sequencial das aulas.
+- [x] Comportamento de continuar estudo.
+- [x] Condição de conclusão para certificado.
+- [x] Limites do protótipo de certificado.
+- [x] Banner visual canônico do MLI-Knot.
+- [x] Atualização semântica alinhada ao protótipo funcional atual.
 
 ---
 
-## Next / Próximos passos
+## Safe next public steps / Próximos passos públicos seguros
 
-- [ ] Add safe public screenshots when available.
-- [ ] Add a simple visual user-flow diagram.
-- [ ] Add a sanitized example course card.
-- [ ] Add a sanitized certificate preview.
-- [ ] Keep the main source repository private until explicitly reviewed.
+- [ ] Add reviewed public screenshots when safe material is available.
+- [ ] Add a simple sanitized visual user-flow diagram.
+- [ ] Add a fictional course-card example if useful.
+- [ ] Add a fictional certificate preview with explicit prototype labeling.
+- [ ] Keep the main source repository private unless a separate explicit review changes that decision.
 
-- [ ] Adicionar screenshots públicos seguros quando existirem.
-- [ ] Adicionar um diagrama visual simples do fluxo do usuário.
-- [ ] Adicionar um exemplo sanitizado de card de curso.
-- [ ] Adicionar uma prévia sanitizada de certificado.
-- [ ] Manter o repositório principal privado até revisão explícita.
+- [ ] Adicionar screenshots públicos revisados quando houver material seguro.
+- [ ] Adicionar um diagrama visual sanitizado do fluxo do usuário.
+- [ ] Adicionar um exemplo fictício de card de curso, se útil.
+- [ ] Adicionar uma prévia fictícia de certificado com identificação explícita de protótipo.
+- [ ] Manter o repositório-fonte privado salvo decisão explícita em revisão separada.
 
 ---
 
@@ -63,16 +74,18 @@ Not planned here:
 
 - private source code;
 - real student data;
-- authentication implementation;
-- payment implementation;
-- certificate issuing backend;
+- real authentication implementation;
+- real payment implementation;
+- production backend;
+- official certificate issuance;
 - unrevised internal development material.
 
 Não planejado aqui:
 
 - código-fonte privado;
 - dados reais de alunos;
-- implementação de autenticação;
-- implementação de pagamento;
-- backend de emissão de certificado;
-- material interno de desenvolvimento ainda não revisado.
+- implementação real de autenticação;
+- implementação real de pagamento;
+- backend de produção;
+- emissão oficial de certificados;
+- material interno de desenvolvimento não revisado.
