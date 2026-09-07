@@ -1,9 +1,8 @@
 # MLI-Knot-Cursos Showcase
 
-> **Status:** vitrine pública sanitizada no GitHub.  
+> **Status:** vitrine pública sanitizada de um protótipo funcional privado/local.
 > **Projeto fonte:** `MLI-Knot-Cursos`, mantido privado/local.  
-> **Regra de publicação:** somente documentação, exemplos e imagens revisados e seguros devem entrar nesta superfície.
-
+> **Regra de publicação:** somente documentação, exemplos e imagens revisados e seguros entram nesta superfície.
 
 <div align="center">
 
@@ -11,8 +10,8 @@
 
 </div>
 
-> Public sanitized showcase of the **MLI-Knot-Cursos** educational platform flow.  
-> Vitrine pública sanitizada do fluxo educacional do **MLI-Knot-Cursos**.
+> Public sanitized showcase of the current functional prototype flow of **MLI-Knot-Cursos**.
+> Vitrine pública sanitizada do fluxo atualmente implementado no protótipo **MLI-Knot-Cursos**.
 
 ![Status](https://img.shields.io/badge/status-public%20showcase-blue)
 ![Scope](https://img.shields.io/badge/scope-sanitized%20documentation-darkgreen)
@@ -25,47 +24,87 @@
 
 ### O que é
 
-**MLI-Knot-Cursos Showcase** é uma vitrine pública e sanitizada do fluxo educacional planejado para o projeto **MLI-Knot-Cursos**.
+**MLI-Knot-Cursos Showcase** é a vitrine pública e sanitizada do projeto privado **MLI-Knot-Cursos**.
 
-O objetivo é apresentar a proposta, o fluxo de navegação, os limites atuais e a direção do projeto sem expor código interno, dados reais, conteúdo privado de desenvolvimento ou material ainda não revisado.
+A fonte atual é um **protótipo funcional em evolução** de uma experiência educacional baseada em catálogo, inscrição local, aulas sequenciais, progresso, retomada de estudo e fluxo de certificado.
 
-### Fluxo educacional principal
+Esta vitrine descreve comportamentos verificáveis do protótipo sem publicar seu código-fonte, dados internos, conteúdo privado de cursos ou material de desenvolvimento não revisado.
+
+### Fluxo atualmente representado no protótipo
 
 ```text
-catálogo -> inscrição -> aulas -> progresso -> continuar estudo -> certificado
+catálogo
+-> inscrição local
+-> aulas
+-> progresso
+-> continuar estudo
+-> conclusão em 100%
+-> fluxo de certificado
 ```
 
-O fluxo representa uma jornada simples de estudo:
+O protótipo atual já representa:
 
-1. o visitante visualiza um catálogo de cursos;
-2. escolhe um curso e inicia uma inscrição;
-3. acessa aulas organizadas em sequência;
-4. acompanha o progresso;
-5. continua de onde parou;
-6. desbloqueia a estrutura de certificado ao concluir 100%.
+1. catálogo e detalhe de cursos;
+2. inscrição armazenada localmente no navegador;
+3. aulas organizadas em sequência;
+4. controle progressivo de acesso às aulas;
+5. marcação de aulas concluídas;
+6. cálculo de percentual de progresso;
+7. ação para continuar a partir da próxima aula útil;
+8. liberação do fluxo de certificado após 100% de conclusão;
+9. prévia de certificado;
+10. geração de certificado em PDF;
+11. versão apropriada para impressão.
+
+Determinadas configurações do protótipo também representam, de forma **local e simulada**, a necessidade de aquisição do certificado antes de sua liberação.
+
+Isso não corresponde a pagamento real nem a integração financeira.
+
+### Persistência do protótipo
+
+Inscrição, progresso e estados relacionados ao certificado são representados localmente no navegador durante esta fase.
+
+Essa persistência é adequada à prototipação e não deve ser interpretada como conta de usuário, banco de dados centralizado ou backend de produção.
+
+### Limites atuais
+
+O projeto fonte ainda é um protótipo privado/local e não deve ser tratado como plataforma pronta para produção.
+
+Não existem nesta fase:
+
+- backend real de produção;
+- banco de dados centralizado;
+- autenticação real de usuários;
+- pagamento real;
+- validação financeira;
+- emissão oficial de certificados;
+- registro externo de certificados;
+- painel administrativo completo.
+
+Os certificados representados pelo protótipo são artefatos de demonstração e não possuem status oficial.
 
 ### Escopo público
 
-Este repositório contém apenas documentação pública e sanitizada.
+Esta vitrine pode conter:
 
-Ele pode conter:
-
-- visão geral do fluxo educacional;
-- documentação de progresso do aluno;
-- documentação da estrutura de certificado;
+- descrição sanitizada do fluxo funcional;
+- documentação de progresso;
+- documentação do fluxo de certificado;
+- diagramas conceituais;
+- exemplos fictícios;
 - roadmap público;
-- screenshots públicos seguros, quando existirem.
+- screenshots públicos seguros, quando explicitamente revisados.
 
-Ele não contém:
+Ela não contém:
 
-- código-fonte privado do projeto principal;
+- código-fonte privado;
 - dados reais de alunos;
+- contas reais;
 - conteúdo privado de cursos;
-- credenciais;
-- backend real;
-- banco de dados real;
-- pagamentos reais;
-- certificados oficiais emitidos.
+- credenciais ou chaves;
+- dados de pagamento;
+- configurações internas desnecessárias à compreensão pública;
+- registros oficiais de certificados.
 
 ### Documentação
 
@@ -84,9 +123,9 @@ Ele não contém:
 
 ### Relação com o projeto principal
 
-O projeto principal **MLI-Knot-Cursos** permanece privado neste momento.
+O **MLI-Knot-Cursos** permanece privado/local.
 
-Esta vitrine existe para apresentar a ideia de forma segura, pública e revisável antes de qualquer decisão futura sobre abertura de código.
+Esta vitrine apresenta apenas uma camada pública sanitizada do que já pode ser explicado com segurança.
 
 ---
 
@@ -94,73 +133,85 @@ Esta vitrine existe para apresentar a ideia de forma segura, pública e revisáv
 
 ### What it is
 
-**MLI-Knot-Cursos Showcase** is a public sanitized showcase of the educational flow planned for the **MLI-Knot-Cursos** project.
+**MLI-Knot-Cursos Showcase** is the public sanitized surface of the private **MLI-Knot-Cursos** project.
 
-Its goal is to present the proposal, navigation flow, current boundaries, and project direction without exposing internal code, real data, private development material, or unrevised content.
+The current source is an evolving **functional prototype** of an educational experience built around a course catalog, local enrollment, sequential lessons, progress tracking, study resumption, and a certificate flow.
 
-### Main educational flow
+This repository documents verifiable prototype behavior without publishing private source code, internal data, private course material, or unrevised development content.
+
+### Currently represented prototype flow
 
 ```text
-catalog -> enrollment -> lessons -> progress -> continue studying -> certificate
+catalog
+-> local enrollment
+-> lessons
+-> progress
+-> continue studying
+-> 100% completion
+-> certificate flow
 ```
 
-The flow represents a simple learning journey:
+The prototype currently represents:
 
-1. the visitor sees a course catalog;
-2. chooses a course and starts enrollment;
-3. accesses lessons organized in sequence;
-4. tracks progress;
-5. continues from where they stopped;
-6. unlocks the certificate structure after reaching 100% completion.
+- course catalog and course-detail views;
+- local enrollment state;
+- sequential lesson access;
+- completed-lesson tracking;
+- progress percentage;
+- continuation from the next useful lesson;
+- certificate gating after 100% completion;
+- certificate preview;
+- PDF generation;
+- printable certificate view.
 
-### Public scope
+Some prototype configurations also model a **local simulated certificate-acquisition state** before certificate release.
 
-This repository contains only public sanitized documentation.
+This is not a real payment integration.
 
-It may contain:
+### Current boundaries
 
-- overview of the educational flow;
-- student progress documentation;
-- certificate structure documentation;
-- public roadmap;
-- safe public screenshots, when available.
+The source project remains a private/local prototype and is not a production platform.
 
-It does not contain:
+It currently has no:
 
-- private source code from the main project;
-- real student data;
-- private course content;
-- credentials;
-- real backend;
-- real database;
-- real payments;
-- official issued certificates.
+- production backend;
+- centralized database;
+- real user authentication;
+- real payment processing;
+- financial validation;
+- official certificate issuance;
+- external certificate registry.
+
+Prototype certificates are demonstration artifacts and have no official status.
 
 ### Documentation
 
+- [`docs/overview.md`](docs/overview.md)
+- [`docs/public-boundary.md`](docs/public-boundary.md)
 - [`docs/course-flow.md`](docs/course-flow.md)
 - [`docs/student-progress.md`](docs/student-progress.md)
 - [`docs/certificate-flow.md`](docs/certificate-flow.md)
 - [`docs/roadmap.md`](docs/roadmap.md)
 - [`docs/screenshots/README.md`](docs/screenshots/README.md)
 
-### Relationship with the main project
+### Public boundary
 
-The main **MLI-Knot-Cursos** project remains private at this stage.
+This repository contains sanitized documentation only.
 
-This showcase exists to present the idea safely, publicly, and reviewably before any future decision about opening source code.
+Private source code, real student data, private course content, credentials, payment data, and unrevised internal material remain outside the public surface.
 
 ---
 
 ## Public status
 
 ```text
-Repository type: public showcase
+Repository type: public sanitized showcase
 Source project: MLI-Knot-Cursos
-Source project visibility: private
-Sensitive material included here: no
+Source project state: functional private/local prototype
+Source project visibility: private/local
 Code included here: no
-State: initial public sanitized documentation
+Sensitive material included here: no
+Production system represented here: no
 ```
 
 ---

@@ -1,8 +1,8 @@
 # Course flow / Fluxo de cursos
 
-This document describes the public sanitized educational flow planned for **MLI-Knot-Cursos**.
+This document describes the public sanitized educational flow currently represented by the private/local **MLI-Knot-Cursos** prototype.
 
-Este documento descreve o fluxo educacional público e sanitizado planejado para o **MLI-Knot-Cursos**.
+Este documento descreve o fluxo educacional público e sanitizado atualmente representado pelo protótipo privado/local **MLI-Knot-Cursos**.
 
 ---
 
@@ -20,37 +20,25 @@ catálogo -> inscrição -> aulas -> progresso -> continuar estudo -> certificad
 
 ## 1. Catalog / Catálogo
 
-The catalog is the entry point where available courses are presented.
+The prototype presents a course catalog and allows navigation to a course-detail view.
 
-O catálogo é o ponto de entrada onde os cursos disponíveis são apresentados.
+O protótipo apresenta um catálogo de cursos e permite navegar para o detalhe de cada curso.
 
-Expected public information:
+The public showcase describes this behavior without publishing the private course dataset or internal implementation.
 
-- course title;
-- short description;
-- estimated duration;
-- basic status;
-- entry action.
-
-Informações públicas esperadas:
-
-- título do curso;
-- descrição curta;
-- duração estimada;
-- status básico;
-- ação de entrada.
+A vitrine descreve esse comportamento sem publicar o conjunto privado de dados dos cursos ou sua implementação interna.
 
 ---
 
 ## 2. Enrollment / Inscrição
 
-Enrollment marks the user's decision to start a course.
+Enrollment is currently represented as local prototype state in the browser.
 
-A inscrição marca a decisão do usuário de iniciar um curso.
+A inscrição é atualmente representada como estado local de protótipo no navegador.
 
-In the prototype stage, this can be represented locally without real accounts or payments.
+It is not backed by a real account, authentication system, or production backend.
 
-Na fase de protótipo, isso pode ser representado localmente, sem contas reais ou pagamentos reais.
+Ela não utiliza conta real, sistema real de autenticação ou backend de produção.
 
 ---
 
@@ -60,38 +48,58 @@ Lessons are organized in sequence.
 
 As aulas são organizadas em sequência.
 
-The intended behavior is progressive access, where the course can guide the learner from one lesson to the next.
+The prototype controls lesson access progressively: the first lesson can be started after enrollment, and later lessons depend on progress through the sequence.
 
-O comportamento pretendido é acesso progressivo, no qual o curso guia o estudante de uma aula para a próxima.
+O protótipo controla o acesso às aulas de forma progressiva: a primeira aula pode ser iniciada após a inscrição, e as aulas seguintes dependem do progresso na sequência.
 
 ---
 
 ## 4. Progress / Progresso
 
-Progress tracks how much of the course has been completed.
+Completed lessons are recorded locally.
 
-O progresso acompanha quanto do curso já foi concluído.
+As aulas concluídas são registradas localmente.
 
-In the prototype, progress may be stored locally only.
+The prototype calculates course completion as a percentage based on completed lessons.
 
-No protótipo, o progresso pode ser armazenado apenas localmente.
+O protótipo calcula a conclusão do curso em percentual com base nas aulas concluídas.
 
 ---
 
 ## 5. Continue studying / Continuar estudo
 
-The continue action helps the learner resume the course from the latest available point.
+The continue action determines the next useful lesson from the current local progress state.
 
-A ação de continuar ajuda o estudante a retomar o curso a partir do último ponto disponível.
+A ação de continuar estudo determina a próxima aula útil a partir do estado local de progresso.
+
+This allows the prototype to resume the learner at the next incomplete point.
+
+Isso permite que o protótipo retome o estudante no próximo ponto ainda não concluído.
 
 ---
 
-## 6. Certificate structure / Estrutura de certificado
+## 6. Certificate flow / Fluxo de certificado
 
-The certificate structure becomes available only when the course reaches 100% completion.
+Certificate access is gated by course completion.
 
-A estrutura de certificado fica disponível apenas quando o curso chega a 100% de conclusão.
+O acesso ao certificado depende da conclusão do curso.
 
-At this showcase stage, this is conceptual and not an official certificate issuance system.
+```text
+course progress = 100% -> certificate flow becomes eligible
+```
 
-Nesta fase de vitrine, isso é conceitual e não representa um sistema oficial de emissão de certificados.
+```text
+progresso do curso = 100% -> fluxo de certificado torna-se elegível
+```
+
+The prototype includes certificate preview, PDF generation, and a printable view.
+
+O protótipo inclui prévia de certificado, geração em PDF e uma visualização para impressão.
+
+Some prototype configurations also model a local simulated acquisition state for certificate access.
+
+Algumas configurações do protótipo também representam um estado local e simulado de aquisição para acesso ao certificado.
+
+This does not represent real payment processing or official certificate issuance.
+
+Isso não representa processamento real de pagamento nem emissão oficial de certificado.

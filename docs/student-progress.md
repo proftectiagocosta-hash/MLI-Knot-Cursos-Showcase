@@ -1,75 +1,79 @@
 # Student progress / Progresso do aluno
 
-This document describes the public sanitized progress model planned for **MLI-Knot-Cursos**.
+This document describes the public sanitized progress model currently implemented in the private/local **MLI-Knot-Cursos** prototype.
 
-Este documento descreve o modelo público e sanitizado de progresso planejado para o **MLI-Knot-Cursos**.
+Este documento descreve o modelo público e sanitizado de progresso atualmente implementado no protótipo privado/local **MLI-Knot-Cursos**.
 
 ---
 
 ## Purpose / Propósito
 
-The progress layer helps the learner understand what has already been completed, what is still pending, and where to continue.
+The progress layer shows what has been completed, what remains pending, and where study should continue.
 
-A camada de progresso ajuda o estudante a entender o que já foi concluído, o que ainda está pendente e de onde continuar.
+A camada de progresso mostra o que já foi concluído, o que permanece pendente e de onde o estudo deve continuar.
 
 ---
 
 ## Prototype state / Estado de protótipo
 
-At the prototype stage, progress can be represented locally and does not require a production account system.
+Enrollment and course progress are stored locally in the browser during this prototype phase.
 
-Na fase de protótipo, o progresso pode ser representado localmente e não exige um sistema de contas em produção.
+A inscrição e o progresso do curso são armazenados localmente no navegador nesta fase de protótipo.
+
+There is no production account system or centralized student database behind this behavior.
+
+Não existe sistema de contas em produção nem banco de dados centralizado de alunos por trás desse comportamento.
 
 ---
 
-## Expected progress indicators / Indicadores esperados
+## Current progress behavior / Comportamento atual de progresso
 
-A safe public progress model may include:
+The prototype currently represents:
 
-- total lessons;
+- enrollment state;
 - completed lessons;
-- current lesson;
 - percentage completed;
-- next recommended action;
-- certificate availability status.
+- course status;
+- next incomplete lesson;
+- sequential access to lessons;
+- continuation from the next useful point;
+- certificate eligibility after full completion.
 
-Um modelo público seguro de progresso pode incluir:
+O protótipo atualmente representa:
 
-- total de aulas;
+- estado de inscrição;
 - aulas concluídas;
-- aula atual;
 - percentual concluído;
-- próxima ação recomendada;
-- status de disponibilidade do certificado.
+- status do curso;
+- próxima aula não concluída;
+- acesso sequencial às aulas;
+- retomada a partir do próximo ponto útil;
+- elegibilidade para certificado após conclusão total.
 
 ---
 
 ## Continue studying / Continuar estudo
 
-The continue action should guide the learner back to the next useful point in the course.
+If no lesson has been completed, the prototype directs the learner to the first available lesson.
 
-A ação de continuar estudo deve conduzir o estudante de volta ao próximo ponto útil do curso.
+Se nenhuma aula foi concluída, o protótipo direciona o estudante para a primeira aula disponível.
 
-Examples:
+After progress begins, the continue action selects the next incomplete lesson.
 
-- if no lesson was started, open the first lesson;
-- if a lesson was completed, open the next lesson;
-- if all lessons were completed, show the certificate action.
+Depois que o progresso começa, a ação de continuar seleciona a próxima aula não concluída.
 
-Exemplos:
+At 100% completion, the learning flow reaches the certificate stage.
 
-- se nenhuma aula foi iniciada, abrir a primeira aula;
-- se uma aula foi concluída, abrir a próxima aula;
-- se todas as aulas foram concluídas, mostrar a ação de certificado.
+Ao atingir 100% de conclusão, o fluxo de estudo chega à etapa de certificado.
 
 ---
 
 ## Current boundaries / Limites atuais
 
-This showcase does not contain real student records.
+This showcase contains no real student records.
 
 Esta vitrine não contém registros reais de alunos.
 
-It describes the intended learning experience and should use only fictional or placeholder examples.
+All described progress behavior belongs to a local functional prototype and must not be interpreted as production student tracking.
 
-Ela descreve a experiência pretendida de aprendizagem e deve usar apenas exemplos fictícios ou placeholders.
+Todo o comportamento de progresso descrito pertence a um protótipo funcional local e não deve ser interpretado como rastreamento de alunos em produção.
