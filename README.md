@@ -15,7 +15,10 @@
 
 ![Status](https://img.shields.io/badge/status-public%20showcase-blue)
 ![Scope](https://img.shields.io/badge/scope-sanitized%20documentation-darkgreen)
+![Current functional baseline](https://img.shields.io/badge/current%20functional%20baseline-100%25-brightgreen)
 ![Source](https://img.shields.io/badge/source%20project-private-orange)
+![GitHub stars](https://img.shields.io/github/stars/proftectiagocosta-hash/MLI-Knot-Cursos-Showcase?style=flat&label=stars)
+![README views](https://hits.sh/github.com/proftectiagocosta-hash/MLI-Knot-Cursos-Showcase.svg?label=README%20views)
 ![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
 
 ---
@@ -59,6 +62,14 @@ O protótipo atual já representa:
 Determinadas configurações do protótipo também representam, de forma **local e simulada**, a necessidade de aquisição do certificado antes de sua liberação.
 
 Isso não corresponde a pagamento real nem a integração financeira.
+
+### Marcador de progresso
+
+O README do projeto fonte enumera **11 funcionalidades já trabalhadas** no protótipo atual. Todas as 11 pertencem à baseline funcional atualmente declarada.
+
+**Marcador público da baseline funcional documentada atual: 11/11 = 100%.**
+
+Esse percentual significa somente **100% da baseline funcional atualmente enumerada no README fonte**. Não significa produto completo, esforço de engenharia concluído, prontidão para produção ou conclusão dos próximos passos. Backend real, autenticação, pagamento, emissão oficial de certificado e outras limitações continuam fora dessa baseline.
 
 ### Persistência do protótipo
 
@@ -168,6 +179,14 @@ Some prototype configurations also model a **local simulated certificate-acquisi
 
 This is not a real payment integration.
 
+### Progress marker
+
+The source-project README enumerates **11 functionalities already worked on** in the current prototype, and all 11 belong to the currently declared functional baseline.
+
+**Current documented functional-baseline marker: 11/11 = 100%.**
+
+This percentage means only 100% of the functional baseline currently enumerated by the source README. It is not product completion, engineering-effort completion, production readiness, or completion of future steps.
+
 ### Current boundaries
 
 The source project remains a private/local prototype and is not a production platform.
@@ -209,6 +228,12 @@ Repository type: public sanitized showcase
 Source project: MLI-Knot-Cursos
 Source project state: functional private/local prototype
 Source project visibility: private/local
+Current documented functional baseline items: 11
+Baseline items currently declared as worked: 11
+Current functional-baseline marker: 100%
+Product completion claimed: no
+Engineering effort completion claimed: no
+Production readiness claimed: no
 Code included here: no
 Sensitive material included here: no
 Production system represented here: no

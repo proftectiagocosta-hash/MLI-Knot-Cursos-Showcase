@@ -48,6 +48,18 @@ Official certificate issuance: no
 
 ---
 
+## Current source baseline marker / Marcador da baseline atual do fonte
+
+The source-project README enumerates **11 functionalities already worked on** in the current prototype. For this public audit, that bounded documented baseline is represented as **11/11 = 100%**.
+
+O README do projeto fonte enumera **11 funcionalidades já trabalhadas** no protótipo atual. Para esta auditoria pública, essa baseline documental limitada é representada como **11/11 = 100%**.
+
+This is **not** product completion, engineering-effort completion, production readiness, or completion of the safe next public steps below.
+
+Isto **não** representa conclusão do produto, conclusão do esforço de engenharia, prontidão para produção ou conclusão dos próximos passos públicos seguros abaixo.
+
+---
+
 ## Safe next public steps / Próximos passos públicos seguros
 
 - [ ] Add reviewed public screenshots when safe material is available.
